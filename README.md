@@ -51,7 +51,7 @@ asus::kbd_backlight
 
 ### Software
 - Python **3.8+**
-- Kernel Linux **≥ 5.15** (disarankan 6.x)
+- Kernel Linux **≥ 5.15** (recommended 6.x)
 
 ---
 

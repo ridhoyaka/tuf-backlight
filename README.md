@@ -86,8 +86,6 @@ sudo ./tufbacklight.py
 
 ## Screenshot
 
-## 📸 Screenshot
-
 ![TUF Backlight CLI](preview-tuf-backlight.png)
 
 ---

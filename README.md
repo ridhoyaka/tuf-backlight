@@ -8,34 +8,35 @@ It provides an intuitive, menu-driven interface for adjusting lighting modes, co
 
 ## Features
 
-- Mengatur mode backlight:
+- Control backlight modes:
   - Static
   - Breathing
   - Color Cycle
   - Strobing
-- Pengaturan warna RGB (0–255)
-- Pengaturan speed (Slow / Medium / Fast)
-- Aman (langsung menulis ke SysFS resmi kernel)
+- RGB color adjustment (0–255)
+- Speed control (Slow / Medium / Fast)
+- Safe to use (writes directly to the official Linux SysFS interface)
 
 ---
 
 ## System Requirements
 
 ### Hardware
-- Laptop **ASUS TUF** yang mendukung RGB keyboard
-- Driver keyboard ASUS tersedia di kernel
-- Cara Mengecek Driver :
+- ASUS TUF laptop with RGB keyboard support
+- ASUS keyboard driver available in the Linux kernel
+- How to check the driver :
 ```bash
 ls /sys/class/leds/ | grep asus
 ```
-Harus muncul :
+It should display :
 ```bash
 asus::kbd_backlight
 ```
 
 ### Operating System
-- Linux (tested on **Ubuntu**)
-- Other Distro :
+- Linux
+- Distro :
+  - Ubuntu
   - Debian
   - Arch Linux
   - Fedora
@@ -90,6 +91,14 @@ sudo ./tufbacklight.py
 
 ---
 
+## Tested on
+
+- Ubuntu 24.04
+- Gnome 46.0
+- Asus TUF F15 FX507ZC4
+
+---
+
 ## License
 
 MIT License
@@ -99,7 +108,7 @@ Free to use, modify, and distribute.
 
 ## Author
 
-Akay / Ridhoyaka
+Akay
 GitHub: https://github.com/ridhoyaka
 
 ---
